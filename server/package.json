@@ -1,0 +1,28 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "Playing with GraphQL to learn it",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seigler/graphql.git"
+  },
+  "author": "Joshua Seigler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seigler/graphql/issues"
+  },
+  "homepage": "https://github.com/seigler/graphql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
