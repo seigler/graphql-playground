@@ -1,5 +1,5 @@
 {
-  "name": "graphql-playground",
+  "name": "graphql-playground-server",
   "version": "1.0.0",
   "description": "Playing with GraphQL to learn it",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seigler/graphql.git"
+    "url": "git+https://github.com/seigler/graphql-playground.git"
   },
   "author": "Joshua Seigler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seigler/graphql/issues"
+    "url": "https://github.com/seigler/graphql-playground/issues"
   },
-  "homepage": "https://github.com/seigler/graphql#readme",
+  "homepage": "https://github.com/seigler/graphql-playground#readme",
   "dependencies": {
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.1",
