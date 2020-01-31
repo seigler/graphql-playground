@@ -1,5 +1,6 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
+const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv-safe').config();
 
@@ -14,6 +15,8 @@ mongoose.connect(process.env.connectionString, {
 mongoose.connection.once('open', () => {
   console.log('Connected to database.');
 });
+
+app.use(cors({ origin: 'http://localhost:1234' }));
 
 app.use('/graphql', graphqlHTTP({
   schema,

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createClient, defaultExchanges, Provider } from 'urql';
-import App from './app';
+import App from './components/app';
 
 const client = createClient({
   url: 'http://localhost:4000/graphql',
